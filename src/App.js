@@ -13,7 +13,7 @@ function App() {
       })
       .catch(error => {
         console.error(error);
-        console.log('Error fetching data'); // Add this line
+        console.log('Error fetching data');
       });
   }, []);
 
